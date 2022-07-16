@@ -1,13 +1,13 @@
+import React, { useState } from "react";
+import UseStateFunctionality from "./components/UseStateFunctionality";
+import FetchRequest from "./components/FetchRequest";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-
-      </header>
+    <div>
+      <UseStateFunctionality />
+      ########
+      <FetchRequest />
     </div>
   );
 }
