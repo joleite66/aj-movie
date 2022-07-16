@@ -1,12 +1,13 @@
 import React, { useState } from "react";
-import UseStateFunctionality from "./components/UseStateFunctionality";
 import FetchRequest from "./components/FetchRequest";
+import Homepage from "./components/Homepage";
 
 function App() {
   return (
     <div>
-      <UseStateFunctionality />
-      ########
+      <Homepage/>
+
+      
       <FetchRequest />
     </div>
   );
